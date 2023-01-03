@@ -30,9 +30,14 @@
 }
 .navbar-inverse .navbar-collapse{
     border-color: white!important;
-    
-
  }
+.nav .activel{
+background-color: rgb(241, 239, 236);
+}
+ 
+.nav .activel>a{
+    color: rgb(241, 103, 110)!important;
+}
  @media(min-width: 769px){
 .navbar .navbar-nav{
     justify-content: center;
@@ -455,4 +460,17 @@ form a{
 .gal-img img{
     width: 300px;
     height: 300px;
+}
+
+form button{
+    background-color: rgb(228, 120, 152)!important;
+    border-color: transparent!important;
+    margin-top: 50px;
+}
+form button a{
+ color: white!important;
+ text-decoration: none;
+}
+form button a:hover{
+    text-decoration: none;
 }

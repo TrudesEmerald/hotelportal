@@ -1,6 +1,6 @@
 
 
-/*function myFunction(){document.getElementById("chcolor").style.backgroundColor="red"; } */
+/*function myFunction(){document.getElementById("chcolor").style.backgroundColor="red"; } 
 
 const a=document.getElementById("chcolor");
 
@@ -15,6 +15,25 @@ else{
     });
 }
 
+*/
+
+
+
+
+
+/**$( document ).ready(function () {
+  if(localStorage.getItem('isCliked')){
+      $( "#chcolor" ).css( 'background-color','green' );
+
+  }
+  $('#chcolor').on('click',function () {
+    $( '#chcolor').css( 'background-color','green' );
+
+  
+    // set the value upon clicking
+    localStorage.setItem('isCliked', true)
+  });
+}); **/
 
 
 
